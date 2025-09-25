@@ -1,0 +1,22 @@
+assistant:
+  name: "Aura"
+  version: "1.0.0"
+
+speech:
+  use_google_tts: false
+  speech_timeout: 10
+  phrase_time_limit: 10
+
+skills:
+  enabled:
+    - weather
+    - time
+    - date
+    - system
+
+apis:
+  openweathermap: "YOUR_API_KEY_HERE"
+
+logging:
+  level: "INFO"
+  file: "logs/aura.log"
